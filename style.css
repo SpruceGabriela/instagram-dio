@@ -10,7 +10,7 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243, 243, 243);
+    background-color: #ff505050;
     margin: 0;
     padding: 0;
     display: flex;
@@ -80,7 +80,7 @@ body {
     background-color: #0095f6;
     color: #ffffff;
     padding: 8px;
-    border-radius: 4px;
+    border-radius: 2px;
 }
 
 .instagram-logout {
