@@ -45,6 +45,11 @@ This project proposes to mimic the Instagram login page using CSS with Flexbox, 
 1. 'Download the APP' color text change.
 1. Included a pop-up message to invite people to join Instagram.
 
+#### Usage Instructions
+
+1. Clone the repository on [github](https://github.com/AlbertoVictorRebello/dio-santander-fullstack-2022.git).
+2. Open the index.html file on your browser.
+
 ### References:
 
 * [HTML basics](https://www.w3schools.com/html/)
