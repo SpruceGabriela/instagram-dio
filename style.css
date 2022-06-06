@@ -14,9 +14,14 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: center;    
 }
 
+/* Ids  */
+#phone-image {
+    width: 90%;
+    height: 90%;
+}
 .instagram-wrapper {
     display: flex;
     align-items: center;
@@ -32,8 +37,98 @@ body {
     width: 50%;
 }
 
-.instagram-phone img {
+.instagram-phone img {    
     height: 50rem;
+}
+
+.pop-up {    
+    display: flex;
+     
+    flex-flow: column-reverse;
+    position: absolute;    
+
+    width: 0px;
+    height: 0px;
+    background-color:#9da7ac;
+    border-radius: 7px; 
+    transition: 0.6s;
+}
+
+.pop-up.active {    
+    width: 180px;
+    height: 180px;
+    margin-left: 70px;
+    margin-top: 10px;
+    transition-delay: 0.5s;
+}
+.pop-up::before {        
+    content: '';
+    position: absolute;
+    background:#9da7ac;
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    opacity: 0;
+    transition: 0.5s;
+    transform: translateY(0.5em) translateX(2.3em) rotate(45deg);
+    
+}
+
+.pop-up.active::before {
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+
+/* Refers to README.md list of modifications, item nº 4 : pop-up message*/
+.pop-up .content {        
+    position: absolute;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    
+    padding: 10px;
+    color: #fff;
+    opacity: 0;
+    transition: 0.5s;
+    transform: scale(0);    
+
+}
+
+.pop-up.active .content {    
+    opacity: 1;
+    transition-delay: 0.5s;
+    transform: scale(1);    
+}
+
+.toggleBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 25px;    
+    color: #fff;        
+    min-width: 30px;
+    height: 30px;       
+    background: #0bcf9c;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+.toggleBtn::before {    
+    content: '?';
+    font-size: 1.5rem;
+    color: #fff;    
+    
+}
+
+.pop-up.active .toggleBtn::before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    content: 'X';
+    font-size: 1rem;
+    color: #f00;    
 }
 
 .instagram-continue {
@@ -72,8 +167,14 @@ body {
     overflow: hidden;
 }
 
+/* Refers to README.md list of modifications, item º 2: growing effect*/
 .profile-photo img {
     height: 6rem;
+    transition: 0.6s;
+}
+
+.profile-photo img:hover {
+    height: 18rem;
 }
 
 .instagram-login {
@@ -103,6 +204,19 @@ body {
     justify-content: center;
     width: 100%;
     padding: 1.3rem 0;
+    font-weight: 800;
+    
+}
+
+.get-the-app p {      
+    transition: .6;    
+}
+
+.get-the-app p:hover {    
+    color: red;
+    cursor: pointer;
+    
+
 }
 
 .download {
@@ -113,19 +227,40 @@ body {
     padding: 1rem;
 }
 
+/* Refers to README.md list of modifications, item º 3: text color change effect*/
 .app-download {
     height: 3rem;
     width: 10rem;
     background-size: cover;
+    
+}
+
+.app-download:hover {    
+    background-position: center;
 }
 
 .app-download:nth-child(1) {
-    background-image: url('./img/apple-button.png');
+    background-image: url('./images/apple-button.png');
+    transition: .6s;
 }
 
+/* Refers to README.md list of modifications, item º 2: growing effect*/
+.app-download:nth-child(1):hover {    
+    flex-grow: 1.5;
+    border-radius: 25px;
+    
+} 
+
 .app-download:nth-child(2) {
-    background-image: url('./img/googleplay-button.png');
+    background-image: url('./images/googleplay-button.png');    
+    transition: .6s;
 }
+
+.app-download:nth-child(2):hover {    
+    flex-grow: 1.5;
+    border-radius: 25px;
+    
+} 
 
 /* media queries */
 
