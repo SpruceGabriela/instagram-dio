@@ -8,20 +8,30 @@
 </head>
 <body>
     <div class="instagram-wrapper">
-        <div class="instagram-phone">
-            <img src="./img/instagram-celular.png" alt="celular">
+        <div class="instagram-phone"  >
+            <img id="phone-image" src="./images/instagram-celular2.png" alt="celular">
+            <div class="pop-up">
+                <div class="content">
+                    <h2>Smile! :)</h2><br>
+                    <p>
+                        The uniqueness of Instagram is that it focuses on images, 
+                        videos and sense of closeness images and videos provide.                           
+                    </p>   
+                </div>         
+                <div class="toggleBtn"></div>
+            </div>
         </div>
         <div class="instagram-continue">
             <div class="group">
-                <img src="./img/instagram-logo.png" class="instagram-logo" alt="instagram logo">
+                <img src="./images/instagram-logo.png" class="instagram-logo" alt="instagram logo">
                 <div class="profile-photo">
-                    <img src="./img/perfil-instagram.jpg" alt="foto de perfil">
+                    <img src="./images/perfil-instagram-alberto.jpg" alt="foto de perfil">
                 </div>
-                <a href="#" class="instagram-login">Continue como sprucegabriela</a>
+                <a href="#" class="instagram-login">Continue como arebell</a>
                 <a href="#" class="instagram-logout">Remover conta</a>
             </div>
             <div class="group">
-                <p class="not-account">Não é sprucegabriela?</p>
+                <p class="not-account">Não é arebell?</p>
                 <p class="not-account">
                     <span class="link-blue">Alternar contas</span>
                     ou
@@ -38,4 +48,16 @@
         </div>
     </div>
 </body>
+
+<script>
+
+
+    let toggleBtn = document.querySelector('.toggleBtn');
+    let popUp = document.querySelector('.pop-up');  
+    toggleBtn.onclick = function() {
+        popUp.classList.toggle('active');      
+    }
+
+
+</script>
 </html>
