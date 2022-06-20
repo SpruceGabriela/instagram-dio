@@ -8,9 +8,12 @@
 }
 
 body {
+    background-image: url(./background/background.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243, 243, 243);
     margin: 0;
     padding: 0;
     display: flex;
@@ -50,10 +53,12 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    background-color: #ffffff;
+    background: rgba(138, 135, 135, 0.45);
+    border-radius: 16px;
+    backdrop-filter: blur(1.9px);
+    -webkit-backdrop-filter: blur(4.9px);
     width: 100%;
     padding: 1.3rem 0;
-    border: 1px solid lightgray;
 }
 
 .group:nth-child(1) {
@@ -89,7 +94,8 @@ body {
 }
 
 .not-account {
-    color: rgb(160, 160, 160);
+    font-weight: 550;
+    color: rgb(10, 10, 10);
 }
 
 .link-blue {
@@ -103,12 +109,13 @@ body {
     justify-content: center;
     width: 100%;
     padding: 1.3rem 0;
+    font-weight: 550;
 }
 
 .download {
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     padding: 1rem;
 }
@@ -120,6 +127,8 @@ body {
 }
 
 .app-download:nth-child(1) {
+    border-radius: 0 5px 5px 0;
+    margin-right: .5em;
     background-image: url('./img/apple-button.png');
 }
 
