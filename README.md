@@ -1,10 +1,35 @@
-# Oi, tudo bem? Chegou aqui através do curso, certo? 🙃
+# Sancruz - Clonando Interface do Instagram
 
-Esse é o repositório da nossa aula de Flexbox, na qual vamos fazer a interface de login do Instagram! 
+> Esse é o repositório da aula de Flexbox, na qual foi feita a interface de login do Instagram! 
 
-### Os requisitos são:
+<div align="center">
 
-* [HTML básico](https://www.w3schools.com/html/)
-* [CSS básico](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+  <img style="max-height: 38rem" src="assets/img/README/mobile.png"/>
 
-## 🚀 Let's code! 🚀
+  <img style="max-height: 24rem" src="assets/img/README/desktop.png"/>
+
+</div>
+
+
+***
+
+### Minhas Alterações
+
+Logo abaixo estão listadas as principais modificações realizadas.
+
+#### Semântica
+
+- Tags subtituidoras: `main`, `figure`, `button` e `a`;
+- Hierarquia CSS: Ajustando as classes dos elementos para o conceito hierárquico CSS, oferecendo melhor descrição às classes e esclarecendo quem são os _elementos-pai_ e _elementos-filho_;
+- Alt e title: Aprimorando as descrições/conteúdos para melhor experiência e acessibilidade;
+
+#### AJUSTES:
+
+- Funcionalidade aos elementos: "alternar contas" e "Inscreva-se". Ambos eram spans e sem nenhuma interação, e depois da alteração foram tranformados em âncoras funcionais;
+
+#### ADIÇÕES:
+
+- Arquitetura de pastas: pela ideia de organização e padrões, foi adicionado a pasta assets ao diretório, e após isso, movido a pasta de imagens e o arquivo de estilo;
+- Pseudo-classes: hover e active aos links de âncoras e botões;
+- Favicon na aba da página;
+
