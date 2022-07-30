@@ -4,9 +4,9 @@
 
 <div align="center">
 
-  <img style="max-height: 38rem" src="assets/img/README/mobile.png"/>
+  <img style="max-height: 28rem" src="assets/img/README/mobile.png"/>
 
-  <img style="max-height: 24rem" src="assets/img/README/desktop.png"/>
+  <img style="max-height: 20rem" src="assets/img/README/desktop.png"/>
 
 </div>
 
@@ -23,11 +23,11 @@ Logo abaixo estão listadas as principais modificações realizadas.
 - Hierarquia CSS: Ajustando as classes dos elementos para o conceito hierárquico CSS, oferecendo melhor descrição às classes e esclarecendo quem são os _elementos-pai_ e _elementos-filho_;
 - Alt e title: Aprimorando as descrições/conteúdos para melhor experiência e acessibilidade;
 
-#### AJUSTES:
+#### Ajustes:
 
 - Funcionalidade aos elementos: "alternar contas" e "Inscreva-se". Ambos eram spans e sem nenhuma interação, e depois da alteração foram tranformados em âncoras funcionais;
 
-#### ADIÇÕES:
+#### Adições:
 
 - Arquitetura de pastas: pela ideia de organização e padrões, foi adicionado a pasta assets ao diretório, e após isso, movido a pasta de imagens e o arquivo de estilo;
 - Pseudo-classes: hover e active aos links de âncoras e botões;
