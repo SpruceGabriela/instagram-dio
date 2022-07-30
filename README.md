@@ -2,14 +2,13 @@
 
 > Esse é o repositório da aula de Flexbox, na qual foi feita a interface de login do Instagram! 
 
-<div style="display: flex; align-items:center; justify-content: center">
+<div align=center>
   
   <img 
     src="assets/img/README/mobile.svg"
     title="Interface mobile do instagram"
     alt="Imagem ilustrando a interface do instagram numa tela mobile"
   />
-
   <img 
     src="assets/img/README/desktop.svg"
     title="Interface desktop do instagram"
@@ -42,19 +41,18 @@ Logo abaixo estão listadas as principais modificações realizadas.
 - Favicon na aba da página;
 
 *** 
-
-<div style="display: flex; align-items:center; justify-content: center">
-
-  <img 
-    src="assets/img/README/dio-logotipo.svg"
-    title="Logotipo do bottcamp Impulso Javascript Evolution"
-    alt="Logotipo do bottcamp Impulso Javascript Evolution"
-  />
-  
-  <img 
-    src="assets/img/README/bootcamp-logo.svg"
-    title="Logotipo do bottcamp Impulso Javascript Evolution"
-    alt="Logotipo do bottcamp Impulso Javascript Evolution"
-  />
-</div>
+<a href="https://www.dio.me">
+  <div align=center>
+    <img 
+      src="assets/img/README/dio-logotipo.svg"
+      title="Logotipo do bottcamp Impulso Javascript Evolution"
+      alt="Logotipo do bottcamp Impulso Javascript Evolution"
+    />
+    <img 
+      src="assets/img/README/bootcamp-logo.svg"
+      title="Logotipo do bottcamp Impulso Javascript Evolution"
+      alt="Logotipo do bottcamp Impulso Javascript Evolution"
+    />
+  </div>
+</a>
 
