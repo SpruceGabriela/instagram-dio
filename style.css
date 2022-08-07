@@ -1,4 +1,4 @@
- * {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -127,15 +127,6 @@ body {
     background-image: url('./img/googleplay-button.png');
 }
 
-  .footer{
-    text-align: center;
-     width:680px;
-     margin: 0 auto;
-     color: #8e8e8e;
-     font-size: 0.75rem;
-     display: inline-block;
-     margin: 0 0.375rem 0.625rem;
-  }
 /* media queries */
 
 
@@ -166,4 +157,3 @@ body {
         border: 1px solid transparent;
     }
 }
- 
